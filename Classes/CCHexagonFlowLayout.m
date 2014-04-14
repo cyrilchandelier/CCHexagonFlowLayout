@@ -53,7 +53,7 @@
     
     // Cells per line
     if (self.scrollDirection == UICollectionViewScrollDirectionVertical)
-        _cellsPerLine = floor(CGRectGetWidth(self.collectionView.bounds) / (self.itemSize.width + self.minimumInteritemSpacing));
+        _cellsPerLine = floor((CGRectGetWidth(self.collectionView.bounds) - self.sectionInset.left - self.sectionInset.right) / (self.itemSize.width + self.minimumInteritemSpacing));
 }
 
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
@@ -255,6 +255,7 @@
         
         x = self.itemSize.width * indexInLine + (self.itemSize.width / 2);
         x += self.minimumInteritemSpacing * indexInLine;
+        x += self.sectionInset.left;
     }
     
     return x;
