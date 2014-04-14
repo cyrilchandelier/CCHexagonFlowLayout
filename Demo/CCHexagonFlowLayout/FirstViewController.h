@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 Cyril Chandelier. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CCHexagonFlowLayout.h"
 
-@interface FirstViewController : UIViewController
+
+
+@interface FirstViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate, CCHexagonDelegateFlowLayout>
 
 @end

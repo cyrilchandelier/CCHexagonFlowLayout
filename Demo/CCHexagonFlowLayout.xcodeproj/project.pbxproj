@@ -17,12 +17,23 @@
 		006586FF18FC9AF300FBCE56 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006586FD18FC9AF300FBCE56 /* Main_iPad.storyboard */; };
 		0065870218FC9AF300FBCE56 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065870118FC9AF300FBCE56 /* FirstViewController.m */; };
 		0065870518FC9AF300FBCE56 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065870418FC9AF300FBCE56 /* SecondViewController.m */; };
-		0065870718FC9AF300FBCE56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0065870618FC9AF300FBCE56 /* Images.xcassets */; };
 		0065870E18FC9AF300FBCE56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0065870D18FC9AF300FBCE56 /* XCTest.framework */; };
 		0065870F18FC9AF300FBCE56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006586E818FC9AF300FBCE56 /* Foundation.framework */; };
 		0065871018FC9AF300FBCE56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006586EC18FC9AF300FBCE56 /* UIKit.framework */; };
 		0065871818FC9AF300FBCE56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0065871618FC9AF300FBCE56 /* InfoPlist.strings */; };
 		0065871A18FC9AF300FBCE56 /* CCHexagonFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065871918FC9AF300FBCE56 /* CCHexagonFlowLayoutTests.m */; };
+		0065872718FC9BAC00FBCE56 /* CCHexagonFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065872618FC9BAC00FBCE56 /* CCHexagonFlowLayout.m */; };
+		0065872E18FC9BBA00FBCE56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0065872918FC9BBA00FBCE56 /* Images.xcassets */; };
+		0065872F18FC9BBA00FBCE56 /* orange_hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0065872A18FC9BBA00FBCE56 /* orange_hexagon.png */; };
+		0065873018FC9BBA00FBCE56 /* orange_hexagon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0065872B18FC9BBA00FBCE56 /* orange_hexagon@2x.png */; };
+		0065873118FC9BBA00FBCE56 /* purple_hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0065872C18FC9BBA00FBCE56 /* purple_hexagon.png */; };
+		0065873218FC9BBA00FBCE56 /* purple_hexagon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0065872D18FC9BBA00FBCE56 /* purple_hexagon@2x.png */; };
+		0065873F18FC9C9900FBCE56 /* FooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065873718FC9C9800FBCE56 /* FooterView.m */; };
+		0065874018FC9C9900FBCE56 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0065873818FC9C9800FBCE56 /* FooterView.xib */; };
+		0065874118FC9C9900FBCE56 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065873A18FC9C9800FBCE56 /* HeaderView.m */; };
+		0065874218FC9C9900FBCE56 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0065873B18FC9C9800FBCE56 /* HeaderView.xib */; };
+		0065874318FC9C9900FBCE56 /* RootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065873D18FC9C9800FBCE56 /* RootCell.m */; };
+		0065874418FC9C9900FBCE56 /* RootCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0065873E18FC9C9900FBCE56 /* RootCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +63,27 @@
 		0065870118FC9AF300FBCE56 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		0065870318FC9AF300FBCE56 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		0065870418FC9AF300FBCE56 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		0065870618FC9AF300FBCE56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0065870C18FC9AF300FBCE56 /* CCHexagonFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCHexagonFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0065870D18FC9AF300FBCE56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0065871518FC9AF300FBCE56 /* CCHexagonFlowLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CCHexagonFlowLayoutTests-Info.plist"; sourceTree = "<group>"; };
 		0065871718FC9AF300FBCE56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0065871918FC9AF300FBCE56 /* CCHexagonFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCHexagonFlowLayoutTests.m; sourceTree = "<group>"; };
+		0065872518FC9BAC00FBCE56 /* CCHexagonFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHexagonFlowLayout.h; sourceTree = "<group>"; };
+		0065872618FC9BAC00FBCE56 /* CCHexagonFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHexagonFlowLayout.m; sourceTree = "<group>"; };
+		0065872918FC9BBA00FBCE56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0065872A18FC9BBA00FBCE56 /* orange_hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_hexagon.png; sourceTree = "<group>"; };
+		0065872B18FC9BBA00FBCE56 /* orange_hexagon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orange_hexagon@2x.png"; sourceTree = "<group>"; };
+		0065872C18FC9BBA00FBCE56 /* purple_hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple_hexagon.png; sourceTree = "<group>"; };
+		0065872D18FC9BBA00FBCE56 /* purple_hexagon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "purple_hexagon@2x.png"; sourceTree = "<group>"; };
+		0065873618FC9C9800FBCE56 /* FooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterView.h; sourceTree = "<group>"; };
+		0065873718FC9C9800FBCE56 /* FooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterView.m; sourceTree = "<group>"; };
+		0065873818FC9C9800FBCE56 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		0065873918FC9C9800FBCE56 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		0065873A18FC9C9800FBCE56 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		0065873B18FC9C9800FBCE56 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		0065873C18FC9C9800FBCE56 /* RootCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootCell.h; sourceTree = "<group>"; };
+		0065873D18FC9C9800FBCE56 /* RootCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootCell.m; sourceTree = "<group>"; };
+		0065873E18FC9C9900FBCE56 /* RootCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +113,9 @@
 		006586DC18FC9AF300FBCE56 = {
 			isa = PBXGroup;
 			children = (
+				0065872418FC9BAC00FBCE56 /* Classes */,
 				006586EE18FC9AF300FBCE56 /* CCHexagonFlowLayout */,
+				0065872818FC9BBA00FBCE56 /* Resources */,
 				0065871318FC9AF300FBCE56 /* CCHexagonFlowLayoutTests */,
 				006586E718FC9AF300FBCE56 /* Frameworks */,
 				006586E618FC9AF300FBCE56 /* Products */,
@@ -119,13 +147,7 @@
 			children = (
 				006586F718FC9AF300FBCE56 /* AppDelegate.h */,
 				006586F818FC9AF300FBCE56 /* AppDelegate.m */,
-				006586FA18FC9AF300FBCE56 /* Main_iPhone.storyboard */,
-				006586FD18FC9AF300FBCE56 /* Main_iPad.storyboard */,
-				0065870018FC9AF300FBCE56 /* FirstViewController.h */,
-				0065870118FC9AF300FBCE56 /* FirstViewController.m */,
-				0065870318FC9AF300FBCE56 /* SecondViewController.h */,
-				0065870418FC9AF300FBCE56 /* SecondViewController.m */,
-				0065870618FC9AF300FBCE56 /* Images.xcassets */,
+				0065873318FC9BC900FBCE56 /* ViewControllers */,
 				006586EF18FC9AF300FBCE56 /* Supporting Files */,
 			);
 			path = CCHexagonFlowLayout;
@@ -158,6 +180,99 @@
 				0065871618FC9AF300FBCE56 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0065872418FC9BAC00FBCE56 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0065872518FC9BAC00FBCE56 /* CCHexagonFlowLayout.h */,
+				0065872618FC9BAC00FBCE56 /* CCHexagonFlowLayout.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		0065872818FC9BBA00FBCE56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				006586FA18FC9AF300FBCE56 /* Main_iPhone.storyboard */,
+				006586FD18FC9AF300FBCE56 /* Main_iPad.storyboard */,
+				0065872918FC9BBA00FBCE56 /* Images.xcassets */,
+				0065872A18FC9BBA00FBCE56 /* orange_hexagon.png */,
+				0065872B18FC9BBA00FBCE56 /* orange_hexagon@2x.png */,
+				0065872C18FC9BBA00FBCE56 /* purple_hexagon.png */,
+				0065872D18FC9BBA00FBCE56 /* purple_hexagon@2x.png */,
+			);
+			name = Resources;
+			path = CCHexagonFlowLayout/Resources;
+			sourceTree = "<group>";
+		};
+		0065873318FC9BC900FBCE56 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0065874518FC9C9D00FBCE56 /* Shared */,
+				0065873418FC9BD000FBCE56 /* First */,
+				0065873518FC9BD500FBCE56 /* Second */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0065873418FC9BD000FBCE56 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				0065870018FC9AF300FBCE56 /* FirstViewController.h */,
+				0065870118FC9AF300FBCE56 /* FirstViewController.m */,
+			);
+			name = First;
+			sourceTree = "<group>";
+		};
+		0065873518FC9BD500FBCE56 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				0065870318FC9AF300FBCE56 /* SecondViewController.h */,
+				0065870418FC9AF300FBCE56 /* SecondViewController.m */,
+			);
+			name = Second;
+			sourceTree = "<group>";
+		};
+		0065874518FC9C9D00FBCE56 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0065874818FC9CB200FBCE56 /* Cell */,
+				0065874718FC9CA900FBCE56 /* Header */,
+				0065874618FC9CA300FBCE56 /* Footer */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		0065874618FC9CA300FBCE56 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+				0065873618FC9C9800FBCE56 /* FooterView.h */,
+				0065873718FC9C9800FBCE56 /* FooterView.m */,
+				0065873818FC9C9800FBCE56 /* FooterView.xib */,
+			);
+			name = Footer;
+			sourceTree = "<group>";
+		};
+		0065874718FC9CA900FBCE56 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				0065873918FC9C9800FBCE56 /* HeaderView.h */,
+				0065873A18FC9C9800FBCE56 /* HeaderView.m */,
+				0065873B18FC9C9800FBCE56 /* HeaderView.xib */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		0065874818FC9CB200FBCE56 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0065873C18FC9C9800FBCE56 /* RootCell.h */,
+				0065873D18FC9C9800FBCE56 /* RootCell.m */,
+				0065873E18FC9C9900FBCE56 /* RootCell.xib */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +352,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				006586FF18FC9AF300FBCE56 /* Main_iPad.storyboard in Resources */,
-				0065870718FC9AF300FBCE56 /* Images.xcassets in Resources */,
+				0065874218FC9C9900FBCE56 /* HeaderView.xib in Resources */,
+				0065872E18FC9BBA00FBCE56 /* Images.xcassets in Resources */,
+				0065873118FC9BBA00FBCE56 /* purple_hexagon.png in Resources */,
+				0065873218FC9BBA00FBCE56 /* purple_hexagon@2x.png in Resources */,
+				0065874018FC9C9900FBCE56 /* FooterView.xib in Resources */,
+				0065874418FC9C9900FBCE56 /* RootCell.xib in Resources */,
+				0065872F18FC9BBA00FBCE56 /* orange_hexagon.png in Resources */,
+				0065873018FC9BBA00FBCE56 /* orange_hexagon@2x.png in Resources */,
 				006586FC18FC9AF300FBCE56 /* Main_iPhone.storyboard in Resources */,
 				006586F318FC9AF300FBCE56 /* InfoPlist.strings in Resources */,
 			);
@@ -258,8 +380,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0065874118FC9C9900FBCE56 /* HeaderView.m in Sources */,
+				0065874318FC9C9900FBCE56 /* RootCell.m in Sources */,
+				0065872718FC9BAC00FBCE56 /* CCHexagonFlowLayout.m in Sources */,
 				0065870518FC9AF300FBCE56 /* SecondViewController.m in Sources */,
 				006586F918FC9AF300FBCE56 /* AppDelegate.m in Sources */,
+				0065873F18FC9C9900FBCE56 /* FooterView.m in Sources */,
 				0065870218FC9AF300FBCE56 /* FirstViewController.m in Sources */,
 				006586F518FC9AF300FBCE56 /* main.m in Sources */,
 			);
@@ -298,6 +424,7 @@
 				006586FB18FC9AF300FBCE56 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		006586FD18FC9AF300FBCE56 /* Main_iPad.storyboard */ = {
@@ -306,6 +433,7 @@
 				006586FE18FC9AF300FBCE56 /* Base */,
 			);
 			name = Main_iPad.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0065871618FC9AF300FBCE56 /* InfoPlist.strings */ = {
