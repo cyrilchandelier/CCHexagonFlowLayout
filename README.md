@@ -15,7 +15,7 @@ There are two ways to use the library in your project:
 - CCHexagonFlowLayout.h
 - CCHexagonFlowLayout.m
 
-2) Using CocoaPods (coming soon)
+2) Using CocoaPods
 
 ```Ruby
 pod 'CCHexagonFlowLayout'
