@@ -9,7 +9,7 @@
         <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderViewID" id="sOZ-iV-Trn" customClass="HeaderView">
             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.23137254901960785" green="0.6588235294117647" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
         </collectionReusableView>
     </objects>
 </document>

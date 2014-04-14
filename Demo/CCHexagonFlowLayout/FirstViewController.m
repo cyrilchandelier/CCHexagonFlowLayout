@@ -72,7 +72,7 @@
     switch (section)
     {
         case 0:
-            return 50;
+            return 9;
             
         case 1:
             return 13;

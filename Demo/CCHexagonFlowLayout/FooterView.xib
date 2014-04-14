@@ -9,7 +9,7 @@
         <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FooterViewID" id="cAm-nY-vFY" customClass="FooterView">
             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-            <color key="backgroundColor" red="0.90588235289999997" green="0.1333333333" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.72549019607843135" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
         </collectionReusableView>
     </objects>
 </document>
