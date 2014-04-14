@@ -8,7 +8,7 @@
 
 #define HeaderView_ID                   @"HeaderViewID"
 #define HeaderView_XIB                  @"HeaderView"
-#define HeaderView_SIZE(direction)      (direction == UICollectionViewScrollDirectionHorizontal) ? CGSizeMake(50, 50) : CGSizeMake(320, 50)
+#define HeaderView_SIZE(direction)      (direction == UICollectionViewScrollDirectionHorizontal) ? CGSizeMake(50, 222) : CGSizeMake(320, 50)
 
 
 

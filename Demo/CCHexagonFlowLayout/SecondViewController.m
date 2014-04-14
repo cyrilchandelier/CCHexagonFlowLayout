@@ -43,7 +43,8 @@
     layout.gap = 76.0f;
     
     // Build collection view
-    _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+    _collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(self.view.frame) / 2 - 111, CGRectGetWidth(self.view.frame), 222)
+                                         collectionViewLayout:layout];
     _collectionView.dataSource = self;
     _collectionView.delegate = self;
     _collectionView.backgroundColor = [UIColor whiteColor];
@@ -71,7 +72,7 @@
     switch (section)
     {
         case 0:
-            return 50;
+            return 5;
             
         case 1:
             return 13;
