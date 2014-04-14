@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>10C7A9A1-9B5B-4B4D-B59C-C9CA560E493F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CCHexagonFlowLayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>036683E9-1E20-456A-96BE-07A08166055F</key>
+		<string>https://github.com/cyrilchandelier/CCHexagonFlowLayout.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CCHexagonFlowLayout/CCHexagonFlowLayout.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>036683E9-1E20-456A-96BE-07A08166055F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cyrilchandelier/CCHexagonFlowLayout.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>036683E9-1E20-456A-96BE-07A08166055F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>036683E9-1E20-456A-96BE-07A08166055F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CCHexagonFlowLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>
