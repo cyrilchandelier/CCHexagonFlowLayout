@@ -8,7 +8,7 @@
 
 #define FooterView_ID                   @"FooterViewID"
 #define FooterView_XIB                  @"FooterView"
-#define FooterView_SIZE(direction)      (direction == UICollectionViewScrollDirectionHorizontal) ? CGSizeMake(50, 200) : CGSizeMake(1024, 50)
+#define FooterView_SIZE(direction)      (direction == UICollectionViewScrollDirectionHorizontal) ? CGSizeMake(50, 200) : CGSizeMake(320, 50)
 
 
 
