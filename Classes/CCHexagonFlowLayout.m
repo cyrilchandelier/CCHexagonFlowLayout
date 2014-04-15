@@ -20,7 +20,7 @@
 @property (nonatomic, assign) NSInteger sectionCount;
 @property (nonatomic, assign) NSInteger cellCount;
 @property (nonatomic, assign) NSInteger cellsPerLine;
-@property (nonatomic, assign) NSArray   *cellCountPerSection;
+@property (nonatomic, strong) NSArray   *cellCountPerSection;
 
 @end
 
