@@ -202,6 +202,10 @@
 
 - (UICollectionViewLayoutAttributes *)layoutAttributesForSupplementaryViewOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
+    // Prevent empty header or footer
+    if (([kind isEqualToString:UICollectionElementKindSectionHeader] && CGSizeEqualToSize(self.headerReferenceSize, CGSizeZero)) || ([kind isEqualToString:UICollectionElementKindSectionFooter] && CGSizeEqualToSize(self.footerReferenceSize, CGSizeZero)))
+        return nil;
+    
     // Get attributes
     UICollectionViewLayoutAttributes *attributes = [super layoutAttributesForSupplementaryViewOfKind:kind atIndexPath:indexPath];
     
