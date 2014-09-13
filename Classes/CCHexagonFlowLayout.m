@@ -272,7 +272,7 @@
     // Compute y position according to scroll direction
     if (self.scrollDirection == UICollectionViewScrollDirectionHorizontal)
     {
-        y = self.itemSize.height / 2 + ((indexPath.item % 2 == 0) ? 0 : _gap);
+        y = self.itemSize.height / 2 + ((indexPath.item % 2 == 0) ? 0 : _gap) + self.sectionInset.top;
     }
     else
     {
