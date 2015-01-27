@@ -33,6 +33,7 @@
 		0065874218FC9C9900FBCE56 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0065873B18FC9C9800FBCE56 /* HeaderView.xib */; };
 		0065874318FC9C9900FBCE56 /* RootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0065873D18FC9C9800FBCE56 /* RootCell.m */; };
 		0065874418FC9C9900FBCE56 /* RootCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0065873E18FC9C9900FBCE56 /* RootCell.xib */; };
+		2CD471441A77785200FB8D29 /* CCHexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD471431A77785200FB8D29 /* CCHexCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		0065873C18FC9C9800FBCE56 /* RootCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootCell.h; sourceTree = "<group>"; };
 		0065873D18FC9C9800FBCE56 /* RootCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootCell.m; sourceTree = "<group>"; };
 		0065873E18FC9C9900FBCE56 /* RootCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootCell.xib; sourceTree = "<group>"; };
+		2CD471421A77785200FB8D29 /* CCHexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHexCell.h; sourceTree = "<group>"; };
+		2CD471431A77785200FB8D29 /* CCHexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHexCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,8 @@
 			children = (
 				0065872518FC9BAC00FBCE56 /* CCHexagonFlowLayout.h */,
 				0065872618FC9BAC00FBCE56 /* CCHexagonFlowLayout.m */,
+				2CD471421A77785200FB8D29 /* CCHexCell.h */,
+				2CD471431A77785200FB8D29 /* CCHexCell.m */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -379,6 +384,7 @@
 				0065874118FC9C9900FBCE56 /* HeaderView.m in Sources */,
 				0065874318FC9C9900FBCE56 /* RootCell.m in Sources */,
 				0065872718FC9BAC00FBCE56 /* CCHexagonFlowLayout.m in Sources */,
+				2CD471441A77785200FB8D29 /* CCHexCell.m in Sources */,
 				0065870518FC9AF300FBCE56 /* SecondViewController.m in Sources */,
 				006586F918FC9AF300FBCE56 /* AppDelegate.m in Sources */,
 				0065873F18FC9C9900FBCE56 /* FooterView.m in Sources */,
