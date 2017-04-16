@@ -5,11 +5,11 @@ UICollectionView layout for both horizontal and vertical management of hexagonal
 
 ![ScreenShot](https://raw.github.com/cyrilchandelier/CCHexagonFlowLayout/master/Assets/CCHexagonFlowLayout.gif)
 
-##Screenshots
+## Screenshots
 
 ![ScreenShot](https://raw.github.com/cyrilchandelier/CCHexagonFlowLayout/master/Assets/vertical.png) - ![ScreenShot](https://raw.github.com/cyrilchandelier/CCHexagonFlowLayout/master/Assets/horizontal.png)
 
-##Installation
+## Installation
 
 There are two ways to use the library in your project:
 
@@ -24,7 +24,7 @@ There are two ways to use the library in your project:
 pod 'CCHexagonFlowLayout'
 ```
 
-##Usage
+## Usage
 
 Begin with the creation of an instance of the CCHexagonFlowLayout
 
@@ -63,11 +63,11 @@ layout.footerReferenceSize = CGSizeMake(320, 50);
 layout.sectionInset = UIEdgeInsetsMake(20.0f, 20.0f, 20.0f, 20.0f);
 ```
 
-##Tests
+## Tests
 
 - Works fine with iOS7 on iPhone 3.5" and 4" and iPad
 - Not tested on iOS6
 
-##Contribute
+## Contribute
 
 The component has been developed for a single project, feel free to contribute to improve it.
