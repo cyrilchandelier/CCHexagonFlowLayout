@@ -10,8 +10,9 @@
 #define RootCell_XIB    @"RootCell"
 #define RootCell_SIZE   CGSizeMake(160, 145)
 
+#import "CCHexCell.h"
 
-@interface RootCell : UICollectionViewCell
+@interface RootCell : CCHexCell
 
 // Cell nib
 + (UINib *)cellNib;

@@ -15,7 +15,7 @@
 @interface CCHexagonFlowLayout : UICollectionViewFlowLayout
 
 // Properties
-@property (nonatomic, assign) CGFloat gap;
+@property (nonatomic, assign) CGFloat radius;
 
 // Delegate
  @property (nonatomic, assign) id<CCHexagonDelegateFlowLayout> delegate;

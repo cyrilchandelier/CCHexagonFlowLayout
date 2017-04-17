@@ -16,6 +16,8 @@
 
 @interface CCHexagonFlowLayout ()
 
+@property (nonatomic, assign) CGFloat gap;
+
 // Counters
 @property (nonatomic, assign) NSInteger sectionCount;
 @property (nonatomic, assign) NSInteger cellCount;
@@ -27,6 +29,26 @@
 
 
 @implementation CCHexagonFlowLayout
+
+@dynamic radius;
+
+#pragma mark - Accessor
+- (void)setRadius:(CGFloat)radius {
+	
+	CGSize itemSize = CGSizeZero;
+	itemSize.width = radius * 2.0f;
+	itemSize.height = radius * cos(M_PI / 6.0f) * 2.0f;
+	
+	self.itemSize = itemSize;
+	
+	self.minimumInteritemSpacing = (-30.0f * radius) / 80.0f;
+	self.minimumLineSpacing = (10.0f * radius) / 80.0f;
+	self.gap = (76.0f * radius) / 80.0f;
+}
+
+- (CGFloat)radius {
+	return self.itemSize.width / 2.0f;
+}
 
 #pragma mark - UICollectionViewLayout
 - (void)prepareLayout

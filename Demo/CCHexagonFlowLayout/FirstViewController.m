@@ -35,13 +35,10 @@
     layout.delegate = self;
     // layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     layout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    layout.minimumInteritemSpacing = -30.0f;
-    layout.minimumLineSpacing = 10.0f;
     layout.sectionInset = UIEdgeInsetsMake(20.0f, 15.0f, 20.0f, 15.0f);
-    layout.itemSize = RootCell_SIZE;
     layout.headerReferenceSize = HeaderView_SIZE(layout.scrollDirection);
     layout.footerReferenceSize = FooterView_SIZE(layout.scrollDirection);
-    layout.gap = 76.0f;
+	layout.radius = 80.0f;
     
     // Build collection view
     _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
